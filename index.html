@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>1710991620</title>
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+
+  .footer {
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: black;
+     color: white;
+     text-align: center;
+     color: white;
+  }
+
+  </style>
+</head>
+<body>
+  <section id="home" class="main-banner parallaxie" style="background: url('banner-01.jpg')">
+
+  <header>
+    <h1>Dogs Info</h1>
+  </header>
+
+  <div class="container">
+
+    <label for="breeds">Select a Breed</label>
+    <!-- The <select> element is used to create a drop-down list. -->
+    <!-- The <option> tags inside the <select> element define the available options in the list. -->
+    <select class="u-full-width" id="breeds"></select>
+
+    <!-- Empty <div> for random dog images to be inserted into -->
+    <div class="card"></div>
+
+    <!-- Form to POST new comment -->
+    <form>
+      <label for="name">Name</label>
+      <input class="u-full-width" id="name" type="text">
+
+      <label for="comment">Comment</label>
+      <textarea class="u-full-width" id="comment"></textarea>
+
+      <button type="submit" id="submit">Submit</button>
+    </form>
+
+  </div>
+
+  <div class="footer">
+  <a href="https://raghavsharma00.github.io/resume/"><h3>Raghav Sharma : Link to Resume</h3></a>
+</div>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
